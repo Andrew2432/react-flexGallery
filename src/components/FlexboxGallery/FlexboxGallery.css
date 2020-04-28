@@ -1,0 +1,27 @@
+:root {
+  --primary-color: #fff;
+  --secondary-color: #000;
+  --tertiary-color: #680f9c;
+  --overlay-color: rgba(255, 255, 255, 0.1);
+}
+
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.panels {
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
